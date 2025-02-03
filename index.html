@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+            <h3>Result</h3>
+           <p id="action"></p>
+            <p id="score"></p>
+            <p id="message">sorry</p>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <h1>Love Score Calculator ❤️</h1>
+        <p id="error">Both your name and crush name are required</p>
+        <input type="text" id="name1" placeholder="Enter First Name">
+        <input type="text" id="name2" placeholder="Enter Second Name">
+        <button onclick="CheckLove()">Calculate Love Score</button>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
